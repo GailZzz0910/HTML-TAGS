@@ -1,0 +1,111 @@
+/* Style for headings */
+h1 {
+    color: blue;
+    font-size: 24px;
+    text-align: center;
+}
+
+h2 {
+    color: green;
+}
+
+h3 {
+    color: red;
+}
+
+h4 {
+    color: orange;
+}
+
+h5 {
+    color: purple;
+}
+
+h6 {
+    color: brown;
+}
+
+/* Style for paragraphs */
+p {
+    font-style: italic;
+    text-align: center;
+}
+
+/* Style for lists */
+ol, ul, dl {
+    margin-left: 20px;
+}
+
+/* Style for links */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+monkey
+/* Style for images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style for forms */
+form {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+/* Style for semantic elements */
+header, footer, section, article, aside, nav {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+/* Style for meta information */
+meta {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style for box model elements */
+div {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+span {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid black;
+}
